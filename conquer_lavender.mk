@@ -23,14 +23,14 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cygnus_lavender
+PRODUCT_NAME := conquer_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
 PRODUCT_MANUFACTURER := Xiaomi
 
 #Offical
-CYGNUS_BUILD_TYPE := OFFICIAL
+CONQUER_BUILD_TYPE := OFFICIAL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \

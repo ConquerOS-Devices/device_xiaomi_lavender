@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cygnus_lavender.mk
+    $(LOCAL_DIR)/conquer_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    cygnus_lavender-user \
-    cygnus_lavender-userdebug \
-    cygnus_lavender-eng
+    conquer_lavender-user \
+    conquer_lavender-userdebug \
+    conquer_lavender-eng
