@@ -23,11 +23,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pe
-
-# RRO configuration
-TARGET_USES_RRO := true
+    $(LOCAL_PATH)/overlay 
+    
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
