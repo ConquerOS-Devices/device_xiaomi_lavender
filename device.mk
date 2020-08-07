@@ -533,3 +533,8 @@ PRODUCT_COPY_FILES += \
 #GoogleCamera
 PRODUCT_PACKAGES += \
     GoogleCamera
+#hal
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom/media \
+    hardware/qcom/display \
+    vendor/qcom/audio-hal/primary-hal
