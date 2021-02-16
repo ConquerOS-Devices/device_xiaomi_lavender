@@ -30,14 +30,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/conquer/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-EVO_DONATE_URL := https://paypal.me/Sap1k
-EVO_MAINTAINER := Sap1k
-EVO_SUPPORT_URL := https://t.me/EvolutionXLavender
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -46,12 +43,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys" 
 
 # Device identifier
-PRODUCT_NAME := evolution_lavender
+PRODUCT_NAME := conquer_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
+
+#Offical
+CONQUER_BUILD_TYPE := OFFICIAL
 
 TARGET_VENDOR_PRODUCT_NAME := lavender
 
