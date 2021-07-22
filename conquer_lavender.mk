@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common Conquer stuff
 $(call inherit-product, vendor/conquer/config/common.mk)
 
+# Target
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
